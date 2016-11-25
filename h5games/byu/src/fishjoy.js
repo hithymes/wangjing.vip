@@ -57,7 +57,7 @@ game.load = function(container)
 	this.screenHeight = window.innerHeight;
 	
 	//load info
-	var div = Q.createDOM("div", {innerHTML: "微信搜索mayi_zzfriend，关注我们获取HTML5...<br>", style:
+	var div = Q.createDOM("div", {innerHTML: "欢迎访问 wangjing.vip ...<br>", style:
 	{
 		id: "loader",
 		position: "absolute",
