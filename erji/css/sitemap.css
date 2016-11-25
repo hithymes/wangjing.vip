@@ -1,0 +1,78 @@
+.section{
+  border:solid 1px #D6D6D6;
+  margin-bottom:-1px;
+  background:white;
+  *zoom:1;
+  position:relative;
+}
+.section .title{
+  background:#F9F9F9;
+  border-bottom:solid 1px #D6D6D6;
+  height:24px;
+  padding-top:6px;
+  padding-left:24px;
+  font-size:14px;
+  font-weight:bold;
+  color:#498949;
+}
+.section .title a{
+  color:#498949;
+}
+.section .list{
+  font-size:14px;
+  margin-right:-60px;
+  margin-left:20px;
+  width:998px;
+  margin-top:10px;
+  margin-bottom:15px;
+  overflow:hidden;
+}
+.section .list .item{
+  float:left;
+  width:70px;
+  margin:6px 66px -1px 2px;
+  border-bottom:1px solid #EFEFEF;
+  text-align:center;
+  padding:8px 0;
+  white-space:nowrap;
+}
+.section .list .item .link{
+  padding-top:2px;
+  display:block;
+  *zoom:1;
+}
+.section .list .item .link:hover {
+  background:#96D97B;
+  color:white;
+}
+.section .title b{
+  font-weight:bold;
+}
+.section .hilight b{
+  color:#F30;
+}
+.section .link b{
+  position:relative;
+  display:inline-block;
+  cursor:pointer;
+}
+.section .list .link:hover b{
+  font-weight:bold;
+  color:white;
+}
+.section .link:hover b{
+  text-decoration:underline;
+}
+.section i.status-icon{
+  position:absolute;
+  right:-18px;
+  top:-12px;
+  width:16px;
+  height:16px;
+}
+.section i.hot{
+  background:url(../images/com_hot_icon.png) 0 0;
+}
+.section i.new{
+  background:url(../images/com_new_icon.png) 0 0;
+}
